@@ -7,7 +7,7 @@
 	<session-factory>
 		
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://localhost:3306/TableName?</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/ ? TableName?createDatabaseIfNotExist=true/property>
 		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 		<property name="connection.username">USER ?</property>
 		<property name="connection.password">PASSWORD ?</property>
